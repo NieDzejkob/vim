@@ -14,6 +14,8 @@ endif
 let s:cpo = &cpo
 set cpo&vim
 
+syn sync fromstart
+
 syn match schemeParentheses "[^ '`\t\n()\[\]";]\+"
 syn match schemeParentheses "[)\]]"
 
